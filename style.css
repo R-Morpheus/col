@@ -6,9 +6,26 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
+}
+
+.col__navbar{
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: antiquewhite;
+    color: darkcyan;
+}
+
+.col__title{
+
+}
+
+.col__container{
+    height: 96vh;
     display: flex;
 }
+
 
 .col {
     flex: 1;
