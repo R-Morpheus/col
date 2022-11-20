@@ -63,3 +63,16 @@ body {
     background: rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
+
+@media screen and (max-width: 565px){
+    .col__container{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 225px){
+    .col__title {
+        font-size: 20px;
+    }
+}
+    
